@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="webjars/bootstrap/4.4.1-1/css/bootstrap.min.css" crossorigin="anonymous">
+    <title>Thymeleaf</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>使用</h1>
+<!--            填充內容-->
+            <div th:text="孫朝輝好帥"></div>
+<!--            替換原生屬性-->
+            <div id="sch" th:id="wbq">
+                <a href="https://www.baidu.com" class="btn btn-success">點我去百度</a>
+            </div>
+        </div>
+        <br/>
+
+        <div class="col-md-12">
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                    <th scope="col">Handle</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th th:each="prod : ${#lists.sort(list)}" th:text="${prod}">Onions</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
