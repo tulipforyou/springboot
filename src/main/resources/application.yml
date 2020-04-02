@@ -1,0 +1,11 @@
+#server:
+#  port: 8088
+
+#person:
+#  age: 22
+#  date: 2020-02-02
+#  map: {k: sch,v: wbq}
+#  list: [1,2,3]
+#  dog:
+#    name: xdd
+#  last-name: 孫朝輝
