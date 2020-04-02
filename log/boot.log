@@ -1,0 +1,9 @@
+2020-04-02 ===== [main] ===== INFO  ====== com.sch.springboot.SpringbootApplicationTests ====== -Starting SpringbootApplicationTests on sch with PID 15402 (started by sch in /home/sch/project/springboot)
+2020-04-02 ===== [main] ===== DEBUG ====== com.sch.springboot.SpringbootApplicationTests ====== -Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-02 ===== [main] ===== INFO  ====== com.sch.springboot.SpringbootApplicationTests ====== -The following profiles are active: person
+2020-04-02 ===== [main] ===== INFO  ====== o.s.scheduling.concurrent.ThreadPoolTaskExecutor ====== -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 ===== [main] ===== INFO  ====== com.sch.springboot.SpringbootApplicationTests ====== -Started SpringbootApplicationTests in 2.986 seconds (JVM running for 4.755)
+2020-04-02 ===== [main] ===== TRACE ====== com.sch.springboot.SpringbootApplicationTests ====== -***************trace***************
+2020-04-02 ===== [main] ===== INFO  ====== com.sch.springboot.SpringbootApplicationTests ====== -================logger==============
+2020-04-02 ===== [main] ===== ERROR ====== com.sch.springboot.SpringbootApplicationTests ====== ----------------error---------------
+2020-04-02 ===== [SpringContextShutdownHook] ===== INFO  ====== o.s.scheduling.concurrent.ThreadPoolTaskExecutor ====== -Shutting down ExecutorService 'applicationTaskExecutor'
