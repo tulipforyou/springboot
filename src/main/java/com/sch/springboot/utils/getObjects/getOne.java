@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @PackName com.sch.springboot.utils.getObjects
  * @Project springboot
  */
+@SuppressWarnings("AlibabaCommentsMustBeJavadocFormat")
 @Configuration
 public class getOne {
     @Bean

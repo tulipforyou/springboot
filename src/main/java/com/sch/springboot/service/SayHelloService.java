@@ -10,6 +10,7 @@ import java.util.Objects;
  * @PackName com.sch.springboot.service
  * @Project springboot
  */
+@SuppressWarnings({"ALL", "AlibabaClassMustHaveAuthor"})
 public class SayHelloService {
     public void sayHello(){
         System.out.println("gg");
