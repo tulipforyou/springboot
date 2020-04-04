@@ -1,7 +1,9 @@
 package com.sch.springboot;
 
 import com.sch.springboot.model.Person;
+import com.sch.springboot.model.User;
 import com.sch.springboot.service.SayHelloService;
+import com.sch.springboot.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +18,8 @@ class SpringbootApplicationTests {
     @Autowired
     SayHelloService sayHelloService;
     Logger logger= LoggerFactory.getLogger(SpringbootApplicationTests.class);
+    @Autowired
+    UserService userService;
 
 
 
@@ -31,6 +35,11 @@ class SpringbootApplicationTests {
         logger.info("================logger==============");
         logger.error("---------------error---------------");
         sayHelloService.sayHello();
+    }
+    @Test
+    public void test1(){
+        User byId = userService.findById(101);
+        System.out.println(byId);
     }
 
 }
