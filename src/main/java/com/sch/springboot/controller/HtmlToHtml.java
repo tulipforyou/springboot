@@ -19,4 +19,8 @@ public class HtmlToHtml {
     public String success(){
         return "success";
     }
+    @RequestMapping(path = "login")
+    public String login(){
+        return "login";
+    }
 }

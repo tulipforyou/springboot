@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.4.1-1/css/bootstrap.min.css}" crossorigin="anonymous">
+    <title>所有用戶</title>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">用戶信息</h1>
+            <p class="lead">所有信息展示</p>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">name</th>
+                    <th scope="col">age</th>
+                    <th scope="col">sex</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="prod : ${allUsers}">
+                    <th th:text="${prod.id}">Onions</th>
+                    <th th:text="${prod.name}">Onions</th>
+                    <th th:text="${prod.age}">Onions</th>
+                    <th th:text="${prod.sex}">Onions</th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

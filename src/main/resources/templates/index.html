@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="webjars/bootstrap/4.4.1-1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.4.1-1/css/bootstrap.min.css}" crossorigin="anonymous">
     <title>首頁</title>
 </head>
 <body>
-    <a href="success" class="btn btn-success">點擊跳轉到success</a>
-    <a href="thymeleaf" class="btn btn-success">點擊跳轉到thymeleaf</a>
+    <a href="success" class="btn btn-success" th:text="#{tosuccess.tip}"></a>
+    <a href="thymeleaf" class="btn btn-success">[[#{thymeleaf.tip}]]</a>
+    <a href="login" class="btn btn-success">登錄頁面</a>
 </body>
 </html>
