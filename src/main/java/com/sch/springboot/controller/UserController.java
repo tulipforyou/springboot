@@ -53,4 +53,9 @@ public class UserController {
             return "login";
         }
     }
+
+    @RequestMapping(path = "/userOperation")
+    public String addUser(){
+        return null;
+    }
 }

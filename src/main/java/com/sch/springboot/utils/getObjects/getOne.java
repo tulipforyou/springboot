@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Configuration;
 @SuppressWarnings("AlibabaCommentsMustBeJavadocFormat")
 @Configuration
 public class getOne {
-    @Bean
-    public SayHelloService sayHelloService(){
-        return new SayHelloService();
-    }
+    //@Bean
+    //public SayHelloService sayHelloService(){
+       // return new SayHelloService();
+    //}
 }

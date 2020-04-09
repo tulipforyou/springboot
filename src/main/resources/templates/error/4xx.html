@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.4.1-1/css/bootstrap.min.css}" crossorigin="anonymous">
+    <title>4xxError</title>
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align: center">有模板引擎</h1>
+    <div class="row align-items-start">
+        <div class="col">
+            狀態碼：<h1 th:text="${status}"/>
+        </div>
+        <div class="col">
+            時間：<h2 th:text="${#calendars.format(timestamp,'yyyy-MM-dd hh:mm:ss')}"/>
+        </div>
+        <div class="col">
+            錯誤提示：<h2 th:text="${error}"/>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            錯誤對象：<h2 th:text="${exception}"/>
+        </div>
+        <div class="col">
+            錯誤信息:<h2 th:text="${message}"/>
+        </div>
+        <div class="col">
+            JSR303数据校验錯誤信息：<h2 th:text="${errors}"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

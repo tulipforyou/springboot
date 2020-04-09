@@ -38,7 +38,8 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
                 .excludePathPatterns("/user/login")
                 .excludePathPatterns("/")
-                .excludePathPatterns("/login");
+                .excludePathPatterns("/login")
+                .excludePathPatterns("/webjars/**");
     }
 
     /**

@@ -1,0 +1,4 @@
+2020-04-08 21:16:17.640 [main] TRACE com.sch.springboot.SpringbootApplicationTests - ***************trace***************
+2020-04-08 21:16:17.645 [main] TRACE com.sch.springboot.SpringbootApplicationTests - +++++++++++++++++trace++++++++++++++
+2020-04-08 21:17:59.838 [main] TRACE com.sch.springboot.SpringbootApplicationTests - ***************trace***************
+2020-04-08 21:17:59.839 [main] TRACE com.sch.springboot.SpringbootApplicationTests - +++++++++++++++++trace++++++++++++++
