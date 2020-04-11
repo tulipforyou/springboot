@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.sql.DataSource;
+
 @SpringBootTest
 class SpringbootApplicationTests {
 
@@ -21,6 +23,8 @@ class SpringbootApplicationTests {
     Logger logger= LoggerFactory.getLogger(SpringbootApplicationTests.class);
     @Autowired
     UserService userService;
+    @Autowired
+    DataSource dataSource;
 
 
 
@@ -42,6 +46,13 @@ class SpringbootApplicationTests {
     public void test1(){
         User byId = userService.findById(101);
         System.out.println(byId);
+    }
+    /**
+     * 数据库测试
+     */
+    @Test
+    public void testData(){
+        System.out.println("使用的数据源是："+dataSource.getClass());
     }
 
 }

@@ -1,23 +1,69 @@
-2020-04-09 09:47:32.642 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 16166 (started by sch in /home/sch/project/springboot)
-2020-04-09 09:47:32.651 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
-2020-04-09 09:47:34.597 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-09 09:47:34.749 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
-2020-04-09 09:47:35.112 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 3.436 seconds (JVM running for 5.695)
-2020-04-09 09:47:35.435 [main] INFO  com.sch.springboot.SpringbootApplicationTests - ================logger==============
-2020-04-09 09:47:35.500 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-09 09:47:42.491 [main] INFO  com.sch.springboot.SpringbootApplication - Starting SpringbootApplication on sch with PID 16239 (/home/sch/project/springboot/target/classes started by sch in /home/sch/project/springboot)
-2020-04-09 09:47:42.494 [main] INFO  com.sch.springboot.SpringbootApplication - The following profiles are active: person
-2020-04-09 09:47:43.533 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
-2020-04-09 09:47:43.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
-2020-04-09 09:47:43.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-04-09 09:47:43.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-04-09 09:47:43.609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
-2020-04-09 09:47:43.609 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1062 ms
-2020-04-09 09:47:43.761 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-09 09:47:43.803 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
-2020-04-09 09:47:43.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
-2020-04-09 09:47:43.904 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
-2020-04-09 09:47:43.906 [main] INFO  com.sch.springboot.SpringbootApplication - Started SpringbootApplication in 2.011 seconds (JVM running for 2.61)
-2020-04-09 09:47:54.093 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-09 09:47:54.094 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-04-09 09:47:54.098 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-11 10:17:55.358 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 31364 (started by sch in /home/sch/project/springboot)
+2020-04-11 10:17:55.376 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 10:17:56.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 10:17:56.454 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 JDBC repository interfaces.
+2020-04-11 10:17:57.645 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:17:57.749 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 10:17:58.200 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 3.622 seconds (JVM running for 5.768)
+2020-04-11 10:17:58.625 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:18:44.094 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 31509 (started by sch in /home/sch/project/springboot)
+2020-04-11 10:18:44.095 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 10:18:44.671 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 10:18:44.691 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2020-04-11 10:18:45.553 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:18:45.634 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 10:18:45.971 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 2.463 seconds (JVM running for 3.635)
+2020-04-11 10:18:46.160 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:48:58.436 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 7813 (started by sch in /home/sch/project/springboot)
+2020-04-11 10:48:58.437 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 10:48:59.072 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 10:48:59.094 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 JDBC repository interfaces.
+2020-04-11 10:49:00.012 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:49:00.096 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 10:49:00.500 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 2.613 seconds (JVM running for 3.846)
+2020-04-11 10:49:00.697 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:58:51.087 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 9234 (started by sch in /home/sch/project/springboot)
+2020-04-11 10:58:51.091 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 10:58:51.653 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 10:58:51.676 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 JDBC repository interfaces.
+2020-04-11 10:58:52.595 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 10:58:52.691 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 10:58:53.109 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 2.558 seconds (JVM running for 4.295)
+2020-04-11 10:58:53.296 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-11 10:58:53.297 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 13:24:34.901 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 17843 (started by sch in /home/sch/project/springboot)
+2020-04-11 13:24:34.905 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 13:24:35.538 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 13:24:35.566 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 JDBC repository interfaces.
+2020-04-11 13:24:36.273 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-11 13:25:06.074 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 18058 (started by sch in /home/sch/project/springboot)
+2020-04-11 13:25:06.076 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-11 13:25:06.654 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 13:25:06.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 JDBC repository interfaces.
+2020-04-11 13:25:07.980 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 13:25:08.106 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 13:25:08.544 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 3.259 seconds (JVM running for 4.885)
+2020-04-11 13:25:57.589 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 13:25:57.592 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-11 13:38:57.219 [main] INFO  com.sch.springboot.SpringbootApplication - Starting SpringbootApplication on sch with PID 22659 (/home/sch/project/springboot/target/classes started by sch in /home/sch/project/springboot)
+2020-04-11 13:38:57.221 [main] INFO  com.sch.springboot.SpringbootApplication - The following profiles are active: person
+2020-04-11 13:38:57.829 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-04-11 13:38:57.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 JDBC repository interfaces.
+2020-04-11 13:38:58.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-11 13:38:58.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-11 13:38:58.331 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-11 13:38:58.332 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-11 13:38:58.396 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-11 13:38:58.396 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1142 ms
+2020-04-11 13:38:58.651 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-11 13:38:58.696 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-11 13:38:58.933 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-11 13:38:58.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-11 13:38:58.950 [main] INFO  com.sch.springboot.SpringbootApplication - Started SpringbootApplication in 2.307 seconds (JVM running for 2.899)
+2020-04-11 13:39:08.751 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-11 13:39:08.751 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-11 13:39:08.756 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-11 13:41:19.807 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-11 13:41:19.808 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

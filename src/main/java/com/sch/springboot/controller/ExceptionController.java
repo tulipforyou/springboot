@@ -19,7 +19,7 @@ import java.util.Map;
  * @author sch
  * 自定義異常控制器
  */
-@ControllerAdvice
+//@ControllerAdvice
 public class ExceptionController {
     /**
      * 處理MyException異常

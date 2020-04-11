@@ -1,0 +1,24 @@
+2020-04-09 09:47:32.642 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Starting SpringbootApplicationTests on sch with PID 16166 (started by sch in /home/sch/project/springboot)
+2020-04-09 09:47:32.651 [main] INFO  com.sch.springboot.SpringbootApplicationTests - The following profiles are active: person
+2020-04-09 09:47:34.597 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 09:47:34.749 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-09 09:47:35.112 [main] INFO  com.sch.springboot.SpringbootApplicationTests - Started SpringbootApplicationTests in 3.436 seconds (JVM running for 5.695)
+2020-04-09 09:47:35.435 [main] INFO  com.sch.springboot.SpringbootApplicationTests - ================logger==============
+2020-04-09 09:47:35.500 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-09 09:47:42.491 [main] INFO  com.sch.springboot.SpringbootApplication - Starting SpringbootApplication on sch with PID 16239 (/home/sch/project/springboot/target/classes started by sch in /home/sch/project/springboot)
+2020-04-09 09:47:42.494 [main] INFO  com.sch.springboot.SpringbootApplication - The following profiles are active: person
+2020-04-09 09:47:43.533 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-09 09:47:43.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-09 09:47:43.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-09 09:47:43.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-09 09:47:43.609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-09 09:47:43.609 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1062 ms
+2020-04-09 09:47:43.761 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 09:47:43.803 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-09 09:47:43.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-09 09:47:43.904 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-09 09:47:43.906 [main] INFO  com.sch.springboot.SpringbootApplication - Started SpringbootApplication in 2.011 seconds (JVM running for 2.61)
+2020-04-09 09:47:54.093 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 09:47:54.094 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-09 09:47:54.098 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-09 11:00:49.030 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
